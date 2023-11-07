@@ -1,0 +1,32 @@
+﻿<Window x:Class="DapperHW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DapperHW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Border BorderBrush="Black">
+            <TextBlock Name="Results" MinHeight="300">
+                
+            </TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Button Click="Button1_Click">Выбрать людей, старших 25 лет</Button>
+            <Button Click="Button2_Click">Выбрать людей, проживающих не в Киеве</Button>
+            <Button Click="Button3_Click">Dыбрать имена людей, проживающих в Киеве</Button>
+            <Button Click="Button4_Click">Выбрать людей старших 35 лет с именем Sergey</Button>
+            <Button Click="Button5_Click">Выбрать людей, проживающих в Кривом Роге</Button>
+            <Button Height="50" Margin="30" Click="Button6_Click">Перейти к дополнительному заданию</Button>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

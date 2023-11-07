@@ -1,0 +1,24 @@
+﻿<Window x:Class="DapperHW.Task2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DapperHW"
+        mc:Ignorable="d"
+        Title="Task2" Height="250" Width="500" Loaded="Window_Loaded"> 
+    <StackPanel>
+        <Expander Expanded="FirstTask_Expanded" Name="FirstTask" Header="Имена и фамилии сотрудников, работающих в Украине, но не в
+Донецке" IsExpanded="False">
+            <TextBlock Name="Task1TextBlock"></TextBlock>
+        </Expander>
+        <Expander Expanded="SecondTask_Expanded" Name="SecondTask" Header="Вывести список стран без повторений" IsExpanded="False">
+        <TextBlock Name="Task2TextBlock"></TextBlock>
+        </Expander>
+        <Expander Expanded="ThirdTask_Expanded" Name="ThirdTask" Header="Выбрать 3-x первых сотрудников, возраст которых превышает 25 лет" IsExpanded="False">
+            <TextBlock Name="Task3TextBlock"></TextBlock>
+        </Expander>
+        <Expander Expanded="FourthTask_Expanded" Name="FourthTask" Header="Выбрать имена, фамилии и возраст сотрудников из Киева, возраст > 23 года" IsExpanded="False">
+            <TextBlock Name="Task4TextBlock"></TextBlock>
+        </Expander>
+    </StackPanel>
+</Window>
